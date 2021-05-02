@@ -245,7 +245,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #2487ce;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover > ul,
+.navbar .dropdown:focus-within > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -257,7 +258,8 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover > ul,
+.navbar .dropdown .dropdown:focus-within > ul {
   opacity: 1;
   top: 0;
   left: 100%;
